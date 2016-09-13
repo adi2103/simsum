@@ -1,0 +1,2 @@
+POSTS = 60
+OLDEST_TIME = ''

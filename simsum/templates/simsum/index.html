@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> SimSum Analysis </title>
+</head>
+
+<body>
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    <br>
+    <h1>Hello, you are at the SimSum analysis portal.</h1>
+    <h2>Enter the facebook handle, the twitter handle and press the Submit button.</h2>
+
+    <form action="/simsum/result/" method="post">
+        {% csrf_token %}
+        <br><br><br>
+        <p>Facebook Handle
+        <input type="text" name="fb_username" value="username" />
+        <br><br><br></p>
+        <p>Twitter Handle
+        <input type="text" name="t_username" value="username" />
+        <br><br><br><br></p>
+        <p>
+        <input type="submit" value="Submit" /></p>
+    </form>
+
+</body>
