@@ -9,7 +9,7 @@ cycler==0.10.0
 debtagshw==0.1
 defer==1.0.6
 dirspec==13.10
-Django==1.10
+Django==2.2.24
 -e git://github.com/pythonforfacebook/django-facebook.git@58e3172eafb39b8baec8764e3eca23d692d890b8#egg=django4facebook
 duplicity==0.6.23
 facebook-sdk==2.0.0
